@@ -1,6 +1,6 @@
-import { Albums } from "../data/music";
+import { Albums } from "../../data/music";
 import Image from "next/image";
-import MusicPlayerItem from "./MusicPlayerItem";
+import MusicPlayerItem from "../MusicPlayerItem/MusicPlayerItem";
 
 export default function MusicGrid() {
   return (

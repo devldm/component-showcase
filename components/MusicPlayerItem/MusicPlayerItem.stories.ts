@@ -1,26 +1,26 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import FormInput from "./FormInput";
+import MusicPlayerItem from "./MusicPlayerItem";
 
-const meta: Meta<typeof FormInput> = {
-  title: "Components/FormInput",
-  component: FormInput,
+const meta: Meta<typeof MusicPlayerItem> = {
+  title: "Components/MusicPlayerItem",
+  component: MusicPlayerItem,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
     layout: "centered",
   },
-  argTypes: {
-    label: { control: "text" },
-  },
   // ...
-} satisfies Meta<typeof FormInput>;
+} satisfies Meta<typeof MusicPlayerItem>;
 
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    label: "Login",
-    type: "text",
+    album: {
+      imgHref: "./images/mf.jpg",
+      album_title: "Madvillainy",
+      artist: "Madvillain, Madlid, MF DOOM",
+    },
   },
 };
 

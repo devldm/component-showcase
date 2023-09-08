@@ -1,4 +1,4 @@
-import FormInput from "./FormInput/FormInput";
+import FormInput from "../FormInput/FormInput";
 
 export default function Login() {
   return (
