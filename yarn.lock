@@ -2467,7 +2467,7 @@
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.4.0"
 
-"@storybook/manager-api@7.4.0":
+"@storybook/manager-api@7.4.0", "@storybook/manager-api@^7.4.0":
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-7.4.0.tgz#aee0153df1583459b7e1e64e1d8c46fb49a584c8"
   integrity sha512-sBfkkt0eZGTozeKrbzMtWLEOQrgqdk24OUJlkc2IDaucR1CBNjoCMjNeYg7cLDw0rXE8W3W3AdWtJnfsUbLMAQ==
@@ -2676,7 +2676,7 @@
     "@testing-library/user-event" "^14.0.0"
     ts-dedent "^2.2.0"
 
-"@storybook/theming@7.4.0":
+"@storybook/theming@7.4.0", "@storybook/theming@^7.4.0":
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.4.0.tgz#f5d9f8f55c41e08c0f50b57d9fb0e159ed595274"
   integrity sha512-eLjEf6G3cqlegfutF/iUrec9LrUjKDj7K4ZhGdACWrf7bQcODs99EK62e9/d8GNKr4b+QMSEuM6XNGaqdPnuzQ==
