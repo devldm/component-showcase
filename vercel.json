@@ -3,6 +3,6 @@
   "buildCommand": "yarn build-storybook",
   "devCommand": "yarn storybook",
   "installCommand": "yarn install",
-  "framework": null,
+  "framework": "nextjs",
   "outputDirectory": "./storybook-static"
 }
